@@ -1,0 +1,17 @@
+{
+  "name": "rest-client-example",
+  "version": "1.0.0",
+  "description": "Learning how to make HTTP requests with an application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
