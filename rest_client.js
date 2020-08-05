@@ -41,10 +41,10 @@ async function putEntity(url) {
 
 async function deleteEntity(url) {
   axios.delete(url, {
-    id: 8,
-    name: 'Node Modification',
+    id: 9,
+    name: 'Node',
     author: 'Cris',
-    price: 150
+    price: 15
   })
   .then(function (response) {
     console.log('response', response.data);
@@ -58,8 +58,8 @@ async function deleteEntity(url) {
 async function main() {
   //getEntity("http://localhost:8080/courses") 
   //postEntity("http://localhost:8080/courses/create") 
-  putEntity("http://localhost:8080/courses/13") 
-  //deleteEntity("http://localhost:8080/courses/8") 
+  //putEntity("http://localhost:8080/courses/13") 
+  deleteEntity("http://localhost:8080/courses/9") 
 }
 
 main()
